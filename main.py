@@ -1,0 +1,8 @@
+#input aan integer
+n= int(input("Enter the number whose sum you wat to find: "))
+sum= 0
+
+#Interates from n+1 times: i=1 to n+1
+for i in range(1, n+1):
+    sum= sum+i
+print("\nSum= ", sum)
